@@ -1,0 +1,19 @@
+.title{
+  text-align: center;
+  font-size: 6rem;
+}
+#id-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 20px;
+  gap: 15px;
+}
+.country{
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 10px;
+}
+#count-details{
+  font-size: 23px;
+  text-align: center;
+}
